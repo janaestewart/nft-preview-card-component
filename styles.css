@@ -1,0 +1,106 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center;  
+}
+
+.attribution a, 
+.attribution,
+h1, 
+.author-name{
+    color: whitesmoke;
+}
+
+body{
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: #0D192C;
+    color: hsl(215, 51%, 70%); 
+    font-size: 18px;
+}
+
+.container{
+    /* border: 1px black solid; */
+    margin: 40px auto;
+    width: 350px;
+    text-align: center;
+    padding: 10px 3px 15px 3px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.container, .nft-img {
+    border-radius: 15px;
+}
+
+.nft-img{
+    width: 302px;
+    /* height: 302px; */
+    margin-top: 15px;
+}
+
+.main-cont-hold{
+    text-align: left;
+    margin: 20px 25px 20px 25px;
+    border-bottom: hsl(215, 32%, 27%) 1px solid; 
+    padding-bottom: 30px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.nft-paragraph{
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.price-time-hold{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price{
+    color: hsl(178, 100%, 50%);
+}
+
+.iconEth{
+    /* margin-top: 3px; */
+    width: 10px;
+}
+
+.iconClock{
+    /* margin-top: 5px; */
+    width: 18px;
+}
+
+.space-span{
+    padding: 4px;
+}
+
+.author-hold{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.author-img{
+    width: 33px;
+    height: 33px;
+    border: solid 1px white;
+    border-radius: 50%;
+    /* margin-top: 10px; */
+}
+
+.author-para{
+    padding-left: 20px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+
+.author-name{
+    font-weight: 400;
+}
+
